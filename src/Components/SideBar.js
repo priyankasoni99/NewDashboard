@@ -32,12 +32,12 @@ export default function SideBar(props) {
 
           <li className="list-item">
             <i className="fas d fa-tasks"></i>
-            <strong>order lists</strong>
+            <Link to="/Favorite">Favorite</Link>
           </li>
           <br />
           <li className="list-item">
             <i className="fas d fa-border-all"></i>
-            <a>product stock</a>
+            <Link to="/Inbox">Inbox</Link>
           </li>
           <br />
 
@@ -45,48 +45,48 @@ export default function SideBar(props) {
           <h5>pages</h5>
           <li className="list-item">
             <i className="fas d fa-gift"></i>
-            <strong>pricing</strong>
+            <Link to="/Pricing">Pricing</Link>
           </li>
           <br />
           <li className="list-item">
             <i className="fas d fa-calendar-alt"></i>
-            <strong>calender</strong>
+            <Link to="/calender">calender</Link>
           </li>
           <br />
           <li className="list-item">
             <i className="far d fa-clipboard-list"></i>
-            <strong>to do</strong>
+            <Link to="/TO-Do">ToDo</Link>
           </li>
           <br />
           <li className="list-item">
             <i className="far d fa-id-badge"></i>
-            <strong>contact</strong>
+            <Link to="/contact">contact</Link>
           </li>
           <br />
           <li className="list-item">
             <i className="fas d fa-table"></i>
-            <strong>invoice</strong>
+            <Link to="/Invoice">Invoice</Link>
           </li>
           <br />
           <li className="list-item">
             <i className="far d fa-signal-alt-3"></i>
-            <strong>ui elements</strong>
+            <Link to="/UIelements">UIelements</Link>
           </li>
           <br />
           <li className="list-item">
             <i className="fas  d fa-user-plus"></i>
-            <strong>team</strong>
+            <Link to="/Team">Team</Link>
           </li>
           <br />
           <li className="list-item">
             <i className="fas d fa-table"></i>
-            <strong>tabel</strong>
+            <Link to="/Tabel2">Tabel2</Link>
           </li>
           <br />
           <hr />
           <li className="list-item">
             <i className="fas d fa-cog"></i>
-            <strong>settings</strong>
+            <Link to="/Setting">Setting</Link>
           </li>
           <br />
         </ul>
